@@ -1,0 +1,34 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #1AB0BE;
+}
+.container{
+	background: rgba(0, 0, 0, 0.5);
+	width: 960px;
+	height: 1000px;
+	margin: 0 auto 0 auto;
+	padding-top:50px;
+}
+.mytable{
+	width: 800px;
+	height: 800px;
+	margin: 0 auto 0 auto;
+}
+.mytable>table{
+	border: 1px solid black;
+	margin: 0 auto 0 auto;
+	width: 798px;
+	border-collapse: collapse;
+}
+.mytable>table th,td{
+	border: 1px solid black;
+}
+.mytable>table>thead{
+	background: #39697E;
+	color: #A2999A;
+}
+
